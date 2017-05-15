@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "icons-turn-arrow";
+    src: url("../fonts/icons/turn-arrow.eot") format("embedded-opentype"), url("../fonts/icons/turn-arrow.woff") format("woff"), url("../fonts/icons/turn-arrow.ttf") format("truetype"), url("../fonts/icons/turn-arrow.svg") format("svg");
+}
+html,body{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #222;
+}
+body>div{
+	width: 100%;
+	height: 100%;
+}
+#mainContainer{
+	width: 100%;
+	height: 100%;
+}
+#mainContainer>div{
+	width: 100%;
+	height: 100%;
+}
+/*stage--start*/
+.stage{
+	position: relative;;
+	width: 100%;
+	height: 100%;
+}
+/*stage--end*/
+.is-center:after{
+    color: #fff;
+    font-family: "icons-turn-arrow";
+    font-size: 80%;
+    line-height: 30px;
+    content: "\e600";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
